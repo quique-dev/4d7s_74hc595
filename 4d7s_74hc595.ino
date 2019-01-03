@@ -61,8 +61,7 @@ void displayNumber(int num) {
   
   num = abs(num);
   if (num > 9999 ) {
-    //displayError();
-    displayArray(errorMessage);
+    displayError();
   } else {
     digit3 = int(num / 1000);
     digit2 = int((num % 1000) / 100);
@@ -83,13 +82,9 @@ void display(int p, int v){
   delay(5);
 }
 
-void displayArray(byte *msg){
-
-  for (int i=0; i < sizeof(msg); i++)
-      display(3-i,msg[i]); 
-  /*for (int i=0; i < sizeof(errorMessage); i++)
-      display(3-i,errorMessage[i]); 
-  /*display(2,errorMessage[1]);
+void displayError(){  
+  display(3,errorMessage[0]); 
+  display(2,errorMessage[1]);
   display(1,errorMessage[2]);
-  display(0,errorMessage[3]);*/
+  display(0,errorMessage[3]);
 }
