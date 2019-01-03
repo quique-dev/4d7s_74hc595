@@ -5,7 +5,7 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title "4 digit 7 segment display managed with two 74hs595"
+Title "Un display de 4 digitos de 7 segmentos y dos 74hc595 "
 Date "2019-01-02"
 Rev "1"
 Comp ""
