@@ -1,10 +1,11 @@
 EESchema Schematic File Version 4
+LIBS:4d7s_74hs595-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title "4 digit 7 segment display drive with two 74hs595"
+Title "4 digit 7 segment display managed with two 74hs595"
 Date "2019-01-02"
 Rev "1"
 Comp ""
