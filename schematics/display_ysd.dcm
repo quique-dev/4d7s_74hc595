@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP YSD-439AY2B-35
+D 4 digit 7 segment yellow LED, common anode
+K display LED 7-segment
+F http://www.sparkfun.com/datasheets/Components/LED/7-Segment/YSD-439AY2B-35.pdf
+$ENDCMP
+#
+#End Doc Library
